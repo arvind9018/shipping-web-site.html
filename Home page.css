@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+h1{
+    font-size:70px;
+    font-family:verdana;
+    font-weight:bold;
+    text-decoration:none;
+    color:white;
+    float:center;
+    text-transform: uppercase;
+    background-color: goldenrod;
+}
+nav ul{
+    list-style:none;
+    float:center;
+    margin:auto;
+    padding:0;
+    display:flex;
+}
+nav ul li a{
+    line-height: 6px;
+    color:white;
+    padding:22px 40px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:20px;
+    font-weight:bold;
+}
+nav ul li a:hover{
+    background:goldenrod;
+    border-radius:8px;
+    color:#fff;
+}
+nav ul li a:active{
+    background:goldenrod;
+    border-radius:8px;
+}
+ol.a{
+    list-style-type: numbers;
+}
+.a{
+    color:white;
+    width:40%;
+}
+h2{
+    background-color:black;
+    font-size:60px;
+    color: goldenrod;
+
+}
+nav .offers ul li  {
+    line-height: 16px;
+    color:white;
+    padding:42px 80px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:20px;
+    font-weight:bold;
+    text-align: center;
+}
+nav ul li h3{
+    color:goldenrod;
+}
+nav ul li p{
+    color:white;
+    text-transform: lowercase;
+    font-size: medium;
+    font-family:arial;
+}
+nav .porters ul li  {
+    line-height: 16px;
+    color:white;
+    padding:42px 40px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:20px;
+    font-weight:bold;
+    text-align: center;
+}
+nav ul li h4{
+    color:goldenrod;
+}
+ h4:hover{
+    background:rgb(255, 255, 255);
+    border-radius:5px;
+
+}
+h4:active{
+    background:white;
+    border-radius:5px;   
+}
+h3{
+    color:goldenrod;
+}
+
+
